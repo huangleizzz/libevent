@@ -11,12 +11,12 @@ on:
       - 'whatsnew*'
       - 'LICENSE'
   push:
-    paths-ignore:
-      - '**.md'
-      - '.mailmap'
-      - 'ChangeLog*'
-      - 'whatsnew*'
-      - 'LICENSE'
+    #paths-ignore:
+    #  - '**.md'
+    #  - '.mailmap'
+    #  - 'ChangeLog*'
+    #  - 'whatsnew*'
+    #  - 'LICENSE'
 
 jobs:
   cmake:
