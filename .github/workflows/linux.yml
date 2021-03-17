@@ -2,21 +2,7 @@
 name: linux
 
 on:
-  pull_request:
-    types: [opened, synchronize]
-    paths-ignore:
-      - '**.md'
-      - '.mailmap'
-      - 'ChangeLog*'
-      - 'whatsnew*'
-      - 'LICENSE'
-  push:
-    paths-ignore:
-      - '**.md'
-      - '.mailmap'
-      - 'ChangeLog*'
-      - 'whatsnew*'
-      - 'LICENSE'
+  push
 
 jobs:
   cmake:
